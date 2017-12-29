@@ -1,0 +1,1 @@
+cmd_/home/lit/drivers/Test/test.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/lit/drivers/Test/test.ko /home/lit/drivers/Test/test.o /home/lit/drivers/Test/test.mod.o ;  true
