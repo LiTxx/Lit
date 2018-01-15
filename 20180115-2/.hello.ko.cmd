@@ -1,0 +1,1 @@
+cmd_/home/lit/drivers/Lit/20180115/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/lit/drivers/Lit/20180115/hello.ko /home/lit/drivers/Lit/20180115/hello.o /home/lit/drivers/Lit/20180115/hello.mod.o
